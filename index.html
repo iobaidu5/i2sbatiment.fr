@@ -20,9 +20,6 @@
     <script defer src="./assets/js/popper.min.js"></script>
     <script defer src="./assets/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous"></script>
     <title>Page d'accueil</title>
 <meta property="og:title" content="Page d'accueil" />
 <meta property="og:locale" content="fr_FR" />
@@ -61,7 +58,7 @@
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container-fluid">
             <div class="Navbar_image">
-                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                <a href="/"><img src="./assets/img/logo.png" class="Navbar_image-img"
                         alt="" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -112,7 +109,7 @@
             <div class="carousel-item active">
                 <div class="slider_one">
                     <div class="slider_bg-1"></div>
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="slider_content">
                             <h1 class="slider_content-h1">H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
                                 H1 H1 H1</h1>
@@ -138,7 +135,7 @@
             <div class="carousel-item">
                 <div class="slider_two">
                     <div class="slider_bg-2"></div>
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="slider_content">
                             <h1 class="slider_content-h1">H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
                                 H1 H1 H1</h1>
@@ -164,7 +161,7 @@
             <div class="carousel-item">
                 <div class="slider_three">
                     <div class="slider_bg-3"></div>
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="slider_content">
                             <h1 class="slider_content-h1">H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
                                 H1 H1 H1</h1>
@@ -367,32 +364,32 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="menu_content-para">
-                                    <p class="menu_card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    <p class="menu_card-p text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                         consequat</p>
-                                    <a href="./devis.html" class="menu_card-link">En savoir plus <i
-                                            class="fas fa-arrow-right menu_card-link--icon"></i></a>
+                                    <a href="./devis.html" class="menu_card-link">En savoir plus <img src="./assets/img/arrowicon.png"
+                                            class="fas fa-arrow-right menu_card-link--icon"/ ></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="menu_content-para">
-                                    <p class="menu_card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    <p class="menu_card-p text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                         consequat</p>
-                                    <a href="./devis.html" class="menu_card-link">En savoir plus <i
-                                            class="fas fa-arrow-right menu_card-link--icon"></i></a>
+                                    <a href="./devis.html" class="menu_card-link">En savoir plus <img src="./assets/img/arrowicon.png"
+                                        class="fas fa-arrow-right menu_card-link--icon"/ ></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="menu_content-para3">
-                                    <p class="menu_card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    <p class="menu_card-p text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                         consequat</p>
-                                    <a href="./devis.html" class="menu_card-link">En savoir plus <i
-                                            class="fas fa-arrow-right menu_card-link--icon"></i></a>
+                                    <a href="./devis.html" class="menu_card-link">En savoir plus <img src="./assets/img/arrowicon.png"
+                                        class="fas fa-arrow-right menu_card-link--icon"/ ></a>
                                 </div>
                             </div>
                         </div>
@@ -434,85 +431,6 @@
                     <img src="./assets/img/5.png" class="menu_image-img" alt="Rénovation salon Feng Shui" />
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<section class="form">
-    <div class="container">
-        <div class="form_content">
-            <h2 class="menu_content-header text-center">H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2</h2>
-            <hr class="menu_content-divider mx-auto">
-            <h2 class="menu_content-title text-center">H2 H2 H2 H2</h2>
-        </div>
-        <div class="form_box">
-            <form class="form form_box-form" id="contactForm" method="post" action="https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify">
-                <input type="hidden" name="lang" value="fr">
-                <input type="hidden" name="redirectUrl" value="/" />
-                <input type="hidden" name="type" value="contact" />
-                <input type="hidden" name="website" value="173" />
-                <input type="hidden" name="lang" value="fr" />
-                <input type="hidden" name="firstName" value="" />
-                <input type="hidden" name="key" value="6LchzIIgAAAAAMFlzH0jYelN_cP4qqSDMvoVVH6m">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name" class="form_box-form--label">Nom</label>
-                                    <input type="text" class="form_box-form--input" id="name" name="name"
-                                        placeholder="Entrez votre nom" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="entreprise" class="form_box-form--label">Entreprise</label>
-                                    <input type="text" class="form_box-form--input" id="entreprise" name="entreprise"
-                                        placeholder="Nom de l’entreprise (facultatif)" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="phone" class="form_box-form--label">Téléphone</label>
-                                    <input type="text" class="form_box-form--input" id="phone" name="phone"
-                                        placeholder="Entrez un numéro de téléphone">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="email" class="form_box-form--label">Email</label>
-                                    <input type="text" class="form_box-form--input" id="email" name="email"
-                                        placeholder="Entrez une adresse mail valide" required>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <label for="commentaire" class="form_box-form--label">Message</label>
-                                    <textarea class="form_box-form--textarea" id="commentaire" name="commentaire"
-                                        rows="3" placeholder="Dites-nous en plus sur votre demande"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="g-recaptcha" data-sitekey="6LchzIIgAAAAAGNniY-zIRxltHxrbhavMpabyFWQ">
-                            </div>
-                            <br />
-                            <input style="display: none" type="submit" value="Submit" class="wpcf7-wpcf7-submit" />
-                        </div>
-                        <!-- <div id="contact-form-response"></div> -->
-                        <div class="checkbox d-flex align-items-center mb-5">
-                            <input name="condition" type="checkbox" style="width: 2rem; height: 2rem;" />
-                            <span class="form_box-form--label" style="font-size: 1.2rem; margin-bottom: .8rem;">
-                                En utilisant ce formulaire, vous acceptez le stockage et la gestion
-                                de vos données par ce site *</span>
-                            <i class="fa fa-info-square" aria-hidden="true"></i>
-                        </div>
-                        <div class="d-flex justify-content-center mx-auto">
-                            <button type="submit" class="nav-link Navbar_nav-btn form-submit"
-                                value="Submit">Envoyer</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
         </div>
     </div>
 </section>
@@ -632,6 +550,85 @@
                 <img src="./assets/img/gallery/11.png" class="gallery_images-img" alt="Salle de bain 2 vasques" />
                 <img src="./assets/img/gallery/12.png" class="gallery_images-img" alt="Salon au Coudray" />
             </div>
+        </div>
+    </div>
+</section>
+<section class="form">
+    <div class="container">
+        <div class="form_content">
+            <h2 class="menu_content-header text-center">H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2 H2</h2>
+            <hr class="menu_content-divider mx-auto">
+            <h2 class="menu_content-title text-center">H2 H2 H2 H2</h2>
+        </div>
+        <div class="form_box">
+            <form class="form form_box-form" id="contactForm" method="post" action="https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify">
+                <input type="hidden" name="lang" value="fr">
+                <input type="hidden" name="redirectUrl" value="/" />
+                <input type="hidden" name="type" value="contact" />
+                <input type="hidden" name="website" value="173" />
+                <input type="hidden" name="lang" value="fr" />
+                <input type="hidden" name="firstName" value="" />
+                <input type="hidden" name="key" value="6LchzIIgAAAAAMFlzH0jYelN_cP4qqSDMvoVVH6m">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name" class="form_box-form--label">Nom</label>
+                                    <input type="text" class="form_box-form--input" id="name" name="name"
+                                        placeholder="Entrez votre nom" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="entreprise" class="form_box-form--label">Entreprise</label>
+                                    <input type="text" class="form_box-form--input" id="entreprise" name="entreprise"
+                                        placeholder="Nom de l’entreprise (facultatif)" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone" class="form_box-form--label">Téléphone</label>
+                                    <input type="text" class="form_box-form--input" id="phone" name="phone"
+                                        placeholder="Entrez un numéro de téléphone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email" class="form_box-form--label">Email</label>
+                                    <input type="text" class="form_box-form--input" id="email" name="email"
+                                        placeholder="Entrez une adresse mail valide" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="commentaire" class="form_box-form--label">Message</label>
+                                    <textarea class="form_box-form--textarea" id="commentaire" name="commentaire"
+                                        rows="3" placeholder="Dites-nous en plus sur votre demande"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LchzIIgAAAAAGNniY-zIRxltHxrbhavMpabyFWQ">
+                            </div>
+                            <br />
+                            <input style="display: none" type="submit" value="Submit" class="wpcf7-wpcf7-submit" />
+                        </div>
+                        <!-- <div id="contact-form-response"></div> -->
+                        <div class="checkbox d-flex align-items-center mb-5">
+                            <input name="condition" type="checkbox" style="width: 2rem; height: 2rem;" />
+                            <span class="form_box-form--label" style="font-size: 1.2rem; margin-bottom: .8rem;">
+                                En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                                de vos données par ce site *</span>
+                            <i class="fa fa-info-square" aria-hidden="true"></i>
+                        </div>
+                        <div class="d-flex justify-content-center mx-auto">
+                            <button type="submit" class="nav-link Navbar_nav-btn form-submit w-100"
+                                value="Submit">Envoyer</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </section>
